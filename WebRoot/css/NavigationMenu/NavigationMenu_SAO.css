@@ -1,0 +1,82 @@
+/**这是消除<ul><li>标签前面的小黑点**/
+ul,li {
+	list-style-type: none;
+	text-transform: capitalize;
+}
+
+#NavigationMenu_SAO {
+	height: 42px;
+	float: left;
+	line-height: 42px;
+	position: relative;
+	z-index: 1;
+}
+
+#NavigationMenu_SAO li {
+	background:
+		url("/ACGNavigationNets/image/NavigationMenu/NavigationMenu_SAO/menu_sao_second_bg.png")
+		;
+	text-align: center;
+	width: 182px;
+	height: 46px;
+}
+
+#NavigationMenu_SAO li:HOVER {
+	background:
+		url("/ACGNavigationNets/image/NavigationMenu/NavigationMenu_SAO/menu_sao_second_press_bg.png")
+		;
+	text-align: center;
+	width: 182px;
+	height: 46px;
+}
+
+#NavigationMenu_SAO li a {
+	display: block;
+	color: #c0c0c0;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	height: 42px;
+	text-decoration: none;
+	font-size: 14px;
+}
+
+#NavigationMenu_SAO li  a:HOVER {
+	color: white;
+}
+
+#NavigationMenu_SAO li ul {
+	width: 28px;
+	height: 240px;
+	position: relative;
+	left: 165px;
+	top: -135px;
+	background:
+		url("/ACGNavigationNets/image/NavigationMenu/NavigationMenu_SAO/menu_sao_third_indicator_bg.png")
+		;
+	background-repeat: no-repeat;
+}
+
+#NavigationMenu_SAO  li ul li {
+	position: relative;
+	width: 163px;
+	top: -46px;
+	height: 46px;
+	left: -14px;
+	background:
+		url("/ACGNavigationNets/image/NavigationMenu/NavigationMenu_SAO/menu_sao_third_bg.png")
+		;
+	height: 46px;
+}
+
+#NavigationMenu_SAO  li ul li:HOVER {
+	position: relative;
+	width: 163px;
+	top: -46px;
+	height: 46px;
+	left: -14px;
+	background:
+		url("/ACGNavigationNets/image/NavigationMenu/NavigationMenu_SAO/menu_sao_third_press_bg.png")
+		;
+	height: 46px;
+}

@@ -1,0 +1,57 @@
+#SearchBar {
+	background-image:
+		url("/ACGNavigationNets/image/SearchBar/SearchBar_baidu/baidu_Bartholemew_Kuma.png")
+		;
+	position: relative;
+	width: 341px;
+	height: 488px;
+	left: 50%;
+	margin-top: 40px;
+	margin-left: -175px;
+}
+
+#SearchBar_LogoText{
+	background-image:
+		url("/ACGNavigationNets/image/SearchBar/SearchBar_baidu/LogoText_baidu.png")
+		;
+	width:200px;
+	height: 35px;
+	background-size:100% 100%;
+	position: relative;
+	top:120px;
+	left: 200px;
+	
+	
+	}
+
+#BaiduSearchInput {
+	color:white;
+	border: 0px;
+	width: 296px;
+	height: 41px;
+	background-color: transparent;
+	font-size: 18px;
+	position: relative;
+	left: 30px;
+	top: 120px;
+	border: 1px solid #f00;
+	border-color: #969696;
+	border-radius: 20px 20px 20px 20px;
+	background-repeat: no-repeat;
+	background: rgba(131, 88, 163, 0.3) none repeat scroll !important;
+}
+
+.BaiduSearchSubmit {
+	position: relative;
+	top:19px;
+	left:260px;
+	border: none;
+	background:
+		url("/ACGNavigationNets/image/SearchBar/SearchBar_baidu/SubmitButton_baidu.png")
+		;
+	background-size: 100% 100%;
+	width:70px;
+	height:70px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
